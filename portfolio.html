@@ -4,32 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!--Шапка-->
-    <header>
+    <header class="header">
       <nav>
-        <a href="./"> WebStudio </a>
-        <ul>
+        <a class="logo" href="./"
+          ><span class="accent">Web</span
+          ><span class="studio-black">Studio</span></a
+        >
+        <ul class="site-nav">
           <li><a href="">Студія</a></li>
-          <li><a href="">Портфоліо</a></li>
+          <li><a href="./portfolio.html">Портфоліо</a></li>
           <li><a href="">Контакти</a></li>
         </ul>
       </nav>
-      <ul>
+      <ul class="info">
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </header>
-    <main>
+    <main class="main">
       <ul>
-        <li><button type="button">Усі</button></li>
-        <li><button type="button">Веб-сайти</button></li>
-        <li><button type="button">Додатки</button></li>
-        <li><button type="button">Дизайн</button></li>
-        <li><button type="button">Маркетинг</button></li>
+        <li><button type="button" class="button">Усі</button></li>
+        <li><button type="button" class="button">Веб-сайти</button></li>
+        <li><button type="button" class="button">Додатки</button></li>
+        <li><button type="button" class="button">Дизайн</button></li>
+        <li><button type="button" class="button">Маркетинг</button></li>
       </ul>
-      <ul>
+      <ul class="cards">
         <li>
           <img
             src="./images/prtf-img1.jpg"
@@ -123,11 +133,14 @@
       </ul>
     </main>
     <!--Футер-->
-    <footer>
-      <a href="./">WebStudio</a>
-      <address>
+    <footer class="footer">
+      <a class="logo" href="./"
+        ><span class="accent">Web</span
+        ><span class="studio-white">Studio</span></a
+      >
+      <address class="address">
         м. Київ, пр-т Лесі Українки, 26
-        <ul>
+        <ul class="info">
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
           <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
