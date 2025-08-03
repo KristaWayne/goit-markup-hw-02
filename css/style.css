@@ -46,8 +46,8 @@ body {
 .header .info a {
   color: var(--text-color);
 }
-.header .info a:hover,
-.header .info a:focus {
+.info a:hover,
+.info a:focus {
   color: var(--accent-color);
 }
 /* Банер */
@@ -126,7 +126,7 @@ p {
   line-height: 171%;
   letter-spacing: 0.03em;
 }
-.footer .info a {
+.footer-info a {
   color: var(--info-footer-color);
   font-weight: 400;
   font-size: 14px;
